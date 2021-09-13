@@ -2,10 +2,10 @@
 
 # Grupo de trabajo
 
-González Meléndez, Salvador Alejandro	GM190689
-López García, Daniel Iván	LG190078
-Murillo Urrutia, Karla Elizabeth	MU192557
-Rodríguez Meléndez, Rodrigo Jossue	RM192037
+González Meléndez, Salvador Alejandro	GM190689  
+López García, Daniel Iván	LG190078  
+Murillo Urrutia, Karla Elizabeth	MU192557  
+Rodríguez Meléndez, Rodrigo Jossue	RM192037  
 Zamora Aguilar, Rafael Arturo	ZA190386
 
 # Descripción del proyecto
