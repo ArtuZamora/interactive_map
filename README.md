@@ -4,7 +4,7 @@
  Página web estática que muestra información de El Salvador de forma interactiva, municipios, volcanes, rios, lugares turísticos y 
  demás información de interés para los turistas y los mismos salvadoreños
 
-#Software para su desarrollo 🖥️
+# Software para su desarrollo 🖥️
 
  - Sublime Text [https://www.sublimetext.com]
 
