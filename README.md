@@ -18,7 +18,7 @@
   - CSS
   - HTML (Lenguaje de marcado)
 
-# Grupo de Trabajo
+# Grupo de Trabajo (LIC 01T)
 
   - González Meléndez, Salvador Alejandro GM190689
   - López García, Daniel Iván LG190078
