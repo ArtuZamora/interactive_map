@@ -10,6 +10,8 @@
 
  - Visual Studio Code [https://code.visualstudio.com]
 
+ - Trello [https://trello.com/invite/b/YX8KzwLi/f1d4d3028350956babb590d2edbed546/proyecto-lic-2021-gt-01]
+
 # Lenguajes utilizados
 
   - Javascript
