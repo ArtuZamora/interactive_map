@@ -4,11 +4,13 @@
  Página web estática que muestra información de El Salvador de forma interactiva, municipios, volcanes, rios, lugares turísticos y 
  demás información de interés para los turistas y los mismos salvadoreños
 
-#Software para su desarrollo 🖥️
+# Software para su desarrollo 🖥️
 
  - Sublime Text [https://www.sublimetext.com]
 
  - Visual Studio Code [https://code.visualstudio.com]
+
+ - Trello [https://trello.com/invite/b/YX8KzwLi/f1d4d3028350956babb590d2edbed546/proyecto-lic-2021-gt-01]
 
 # Lenguajes utilizados
 
@@ -16,7 +18,7 @@
   - CSS
   - HTML (Lenguaje de marcado)
 
-# Grupo de Trabajo
+# Grupo de Trabajo (LIC 01T)
 
   - González Meléndez, Salvador Alejandro GM190689
   - López García, Daniel Iván LG190078
