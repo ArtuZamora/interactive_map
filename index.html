@@ -19,6 +19,11 @@
 </head>
 
 <body>
+    <div id="myModal" class="modal" style="z-index: 100; display: none;">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
     <div class="container">
         <div class="row text-center">
             <div class="col-12">
@@ -34,6 +39,9 @@
                     <a class="navbar-brand" href="index.html"><img class="img-fluid d-none d-md-block" src="img/icono mapa de El salvador.ico" alt=""></a>
                     <li class="nav-item">
                         <a class="nav-link active btn btn-info espacio" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-info espacio" id="hydroMap">Mapa Hidrografico</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle btn btn-info espacio" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Departamentos</a>
