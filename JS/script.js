@@ -10,6 +10,10 @@ var captionText = document.getElementById("caption");
 //Al cargar la pagina, verificar si es Index para cambiar las hojas de estilo (modo oscuro-claro)
 window.onload = function() {
     var viewMap = document.getElementById("hydroMap");
+<<<<<<< HEAD
+=======
+    var volcMap = document.getElementById("volcMap");
+>>>>>>> main
 
     if (viewMap.addEventListener) {
         viewMap.addEventListener('click', DisplayMap);
@@ -17,6 +21,15 @@ window.onload = function() {
         viewMap.attachEvent('onclick', DisplayMap);
     }
 
+<<<<<<< HEAD
+=======
+    if (volcMap.addEventListener) {
+        volcMap.addEventListener('click', volMap);
+    } else if (volcMap.attachEvent) {
+        volcMap.attachEvent('onclick', volMap);
+    }
+
+>>>>>>> main
     var mode = localStorage.getItem('mode');
     if (page == "index.html") {
         var mode = localStorage.getItem('mode');
@@ -35,6 +48,15 @@ window.onload = function() {
     }
 };
 
+<<<<<<< HEAD
+=======
+function volMap() {
+    modal.style.display = "block";
+    modalImg.src = "img/volcanes-de-el-salvador.jpg";
+    captionText.innerHTML = "Mapa Volcanico de El Salvador";
+}
+
+>>>>>>> main
 function DisplayMap() {
     modal.style.display = "block";
     modalImg.src = "img/mapa-hidrografico.jpg";
@@ -83,4 +105,8 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
     modal.style.display = "none";
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main
