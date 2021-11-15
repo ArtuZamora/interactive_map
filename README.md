@@ -12,6 +12,11 @@
 
  - Trello [https://trello.com/invite/b/YX8KzwLi/f1d4d3028350956babb590d2edbed546/proyecto-lic-2021-gt-01]
 
+# Documentación 📖
+
+ - Manual de Usuario: https://udbedu-my.sharepoint.com/:b:/g/personal/za190386_alumno_udb_edu_sv/EfhdaOq5-oZGp1_rSkrlBVgBESTKJHoxtlcKYzbBmn9H3Q?e=RPGhMD
+ - Manual Técnico: https://udbedu-my.sharepoint.com/:b:/g/personal/za190386_alumno_udb_edu_sv/EdOusyJSXm5ChFQjEwFaVOgBOeXi_9ApwblwX5ZGE6NSOQ?e=YATP18
+
 # Lenguajes utilizados
 
   - Javascript
