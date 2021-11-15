@@ -64,7 +64,7 @@ path:hover{
 #myImg:hover {opacity: 0.9;}
 
 /* The Modal (background) */
-.modal {
+#myModal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -79,7 +79,7 @@ path:hover{
 }
 
 /* Modal Content (Image) */
-.modal-content {
+#myModal .modal-content {
   margin: auto;
   display: block;
   width: 80%;
@@ -99,7 +99,7 @@ path:hover{
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
+#myModal .modal-content, #caption {
   animation-name: zoom;
   animation-duration: 0.6s;
 }

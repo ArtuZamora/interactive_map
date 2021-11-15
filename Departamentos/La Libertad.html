@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/light-mode.css" id="theme" />
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <!--icono-->
     <link rel="icon" href="../img/icono mapa de El salvador.ico">
     <!--Titulo-->
@@ -154,6 +160,140 @@
                     <img class="modal-content" id="img01">
                     <div id="caption"></div>
                 </div>
+                <!---CARD Forests-->
+                <br>
+<div class="row">
+    <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="bosquesyparques/img/parquewalter.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Parque Walter Thilo Deininger</h5>
+                    <p class="card-text">Una de las joyas más impresionantes de Centroamérica está ubicada en la zona central de El Salvador, en el departamento de La Libertad.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaltwd">
+                            Más información ...
+                        </button>
+                </div>
+            </div>
+    </div>
+
+    <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="bosquesyparques/img/esp.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Eco Parque El Espino</h5>
+                    <p class="card-text">Si deseas recorrer el mejor destino turístico para alejarte de la ciudad, debes visitar el Eco Parque El Espino; ubicado en el departamento La Libertad, justo en el municipio Santa Tecla.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalesp">
+                            Más información ...
+                        </button>
+                </div>
+            </div>
+    </div>
+
+</div>
+<!---termina card--->
+
+<!--MODAL-->
+<div class="modal fade" id="modaltwd" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Parque Walter Thilo Deininger</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+            <!--CARRUSEL-->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="bosquesyparques/img/twd.jpg" class="d-block w-100" alt="...">
+                    </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="bosquesyparques/img/twd2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="bosquesyparques/img/twd3.jpg" class="d-block w-100" alt="...">
+                </div>
+          <div class="carousel-item" data-bs-interval="2000">
+              <img src="bosquesyparques/img/twd4.jpg" class="d-block w-100" alt="...">
+          </div>
+                </div>
+            </div>
+
+            <!--TERMINA CARRUSEL-->
+            <br>
+            <p class="fs-3">Características del Parque Walter Thilo Deininger</p>
+            <p style="text-align: justify;">Posee una combinación perfecta entre ambiente playero y montaña, al tener tan cerca playas la sensación es espectacular, de muy pocos lugares podemos decir lo mismo. Su altura máxima es de  280 metros y su mínima ronda apenas los 10 metros. Sobre el clima tenemos que decir que es perfecto, ya que las temperaturas oscilan entre los 22℃  y 27 ℃.</p>
+            <p style="text-align: justify;">El Parque Walter Thilo Deininger es de vital importancia para los ecologistas en El Salvador ya que en la zona se realizan trabajos de investigación enfocados a la biología. Es por ello que se integra a la lista de bosques y parques nacionales de El Salvador.</p>
+
+          <p class="fs-3">Fauna</p>
+          <p style="text-align: justify;">Sobre la fauna te aseguramos que es muy diversa por lo cual si eres amante de los animales exóticos prepara suficiente carga en tu cámara. Entre las especies que habitan la zona podemos mencionar: Armadillos (Conocidos en el lugar como Cusucos) Mapaches, Taltuzas, Venados, una gran variedad de serpientes entre ellas la Zumbadora, Masacuata, Corales, Boas. Además de  Coyotes, Pájaro carpintero 20 especies de anfibios y 115 especies de aves, solo por mencionar algunas.</p>
+
+          <p class="fs-3">Flora</p>
+          <p style="text-align: justify;">Son más de 400 especies de árboles los que constituyen la flora de El Parque Walter Thilo Deininger, muchos de los cuales están en peligro de extinción. Además posee una enorme variedad de plantas medicinales usadas en tiempos ancestrales por indígenas que habitaron la zona.
+          Una de sus características más distintivas del Parque Walter Thilo Deininger son sus dos ríos. Si usted visita este hermoso lugar en la época final del invierno, verá claramente marcada la diferencia entre el bosque húmedo y seco.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!------TERMINA MODAL----->
+
+<!--MODAL-->
+<div class="modal fade" id="modalesp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Eco Parque El Espino</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+            <!--CARRUSEL-->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="bosquesyparques/img/espino.jpg" class="d-block w-100" alt="...">
+                    </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="bosquesyparques/img/esp1.png" class="d-block w-100" alt="...">
+                </div>
+          <div class="carousel-item" data-bs-interval="1500">
+              <img src="bosquesyparques/img/esp2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+              <img src="bosquesyparques/img/esp3.jpg" class="d-block w-100" alt="...">
+          </div>
+
+
+                </div>
+            </div>
+
+            <!--TERMINA CARRUSEL-->
+            <br>
+            <p class="fs-3">Características del Eco Parque El Espino</p>
+
+            <p style="text-align: justify;">Antes de iniciar la travesía vacacional, debemos saber a qué nos enfrentamos al visitar el Eco Parque El Espino; la zona es considerada una reserva natural, ideal para los amantes del ecoturismo. Puesto que puedes entrar en contacto directo con la naturaleza, realizando varias actividades; siendo la observación una de ellas, ya que, verás infinidades de especies vegetativas y fauna. Posee un amplio territorio, el cual equivale a unas 50 manzanas, amplia y total sabana.</p>
+
+            <p style="text-align: justify;">El área se divide en 3 senderos a recorrer, donde podrás disfrutar de diferentes tipos de flores y plantas; todas ellas, solo pertenecientes al hábitat salvadoreño. Su fauna es 100% exótica y llamativa, por lo que impresionarse está a la orden del día; si eres del grupo que adora el ambiente natural, no puedes resistirte a vivir la experiencia que representa recorrer el Eco Parque El Espino.</p>
+
+            <p class="fs-3">Diversión en el Eco Parque El Espino </p>
+
+            <p style="text-align: justify;">Si decides aceptar el desafío al adentrarte en el Eco Parque El Espino, lo primero es aspirar el aire fresco; naturalmente producido por las vegetación arbórea de la zona, acto seguido debes recorrer los senderos. Los cuales están completamente rodeados de árboles como cipreses, pinos y cafetales; las coloridas flores terminan de alegrar la visión del visitante. Una parte interesante que se reserva el lugar son sus árboles, algunos de ellos hasta con 200 años de antigüedad; pero no son el único atractivo en cuanto a vegetación, pues, los cultivos de noni también hacen su trabajo.</p>
+            <p style="text-align: justify;">El proceso de observación aún no termina, falta todavía mencionar que conocerás las aves que hacen vida en el área; hablamos de urracas, clarineros, gallinas y tucanes, quienes prepararán un concierto especialmente para ti. Además de estas, hay muchas más especies que conocer, pero por el momento, creamos la expectativa; la fauna es otro factor que fascina a los turistas, sobre todo los conejos. Animalitos que veremos saltar por allí de vez en cuando, pero, no es la única especie existente en el Eco Parque El Espino; ya que, también existen cotuzas y armadillos, y muchas otras más.</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!------TERMINA MODAL----->
             </div>
             <div class="row">
                 <div class="col-12 text-center">

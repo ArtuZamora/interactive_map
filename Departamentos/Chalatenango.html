@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/light-mode.css" id="theme" />
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!--icono-->
     <link rel="icon" href="../img/icono mapa de El salvador.ico">
     <!--Titulo-->
@@ -166,6 +171,137 @@
                     <img class="modal-content" id="img01">
                     <div id="caption"></div>
                 </div>
+
+                <!---CARD Forests-->
+                <br>
+<div class="row">
+    <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="bosquesyparques/img/pital.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cerro El Pital</h5>
+                    <p class="card-text">Es un destino turístico de preferencia para nacionales como internacionales, está ubicado en el departamento de Chalatenango, su belleza cautiva al que sea.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalpi">
+                            Más información ...
+                        </button>
+                </div>
+            </div>
+    </div>
+
+        <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="bosquesyparques/img/eramon.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cerro Eramon</h5>
+                    <p class="card-text">El destino ideal para los amantes de la aventura extrema. Con una altura de 937m este destino ofrece impresionantes vistas y una caminata de más de una hora en medio del bosque natural.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalera">
+                            Más información ...
+                        </button>
+                </div>
+            </div>
+    </div>
+
+</div>
+<!---termina card--->
+
+<!--MODAL-->
+<div class="modal fade" id="modalpi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cerro El Pital</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+            <!--CARRUSEL-->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="bosquesyparques/img/pt.jpg" class="d-block w-100" alt="...">
+                    </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="bosquesyparques/img/pt2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="bosquesyparques/img/pt3.jpg" class="d-block w-100" alt="...">
+                </div>
+          <div class="carousel-item" data-bs-interval="2000">
+              <img src="bosquesyparques/img/pt4.jpg" class="d-block w-100" alt="...">
+          </div>
+                </div>
+            </div>
+
+            <!--TERMINA CARRUSEL-->
+            <br>
+            <p class="fs-3">¿Que nos podemos encontrar?</p>
+            <p style="text-align: justify;">Su vegetación es de coníferas y encinos y plantas casi extintas en el país y únicas de la zona. Entre ella los «cartuchos» que son por excelencia la flor que adorna el cerro, la variedad en colores es impresionante, además de la hortensias de diferentes colores (blanco, rosa, celeste) girasoles, tigrillas, pero no solo eso, también existen y gracias a su clima sembrados de duraznos y fresas además de una flor silvestre llamada «CARLÓ SANTO».</p>
+            <p style="text-align: justify;">Por otra parte podras escalar la Peña Rajada, un mirador natural sobre una inmensa roca desde la cual observa San Ignacio, La Palma , partes de Honduras y Guatemala, así como otras áreas del oriente de El Salvador.</p>
+
+          <p class="fs-3">Disfruta del paisaje</p>
+          <p style="text-align: justify;">
+           La ventaja de llegar caminando es que podrás apreciar todos los paisajes del recorrido, con hermosas vistas, donde podras tomarte fotos para guardarlas en el album de recuerdos. En el caso que te deje el Bus, no te preocupes ya que en la zona hay hostales preparados para atender a los turistas.</p>
+           <p style="text-align: justify;">
+            Además que si tienes pensado quedarte en el lugar, solo lleva tu tienda de campaña, y ya tienes todo listo. En la cima hay lugares específicos para que tú y tu familia o amigos se queden con total tranquilidad.
+          </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!------TERMINA MODAL----->
+
+<!--MODAL-->
+<div class="modal fade" id="modalera" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cerro Eramón</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+            <!--CARRUSEL-->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="bosquesyparques/img/er.jpg" class="d-block w-100" alt="...">
+                    </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="bosquesyparques/img/er2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="bosquesyparques/img/er3.jpg" class="d-block w-100" alt="...">
+                </div>
+
+                </div>
+            </div>
+
+            <!--TERMINA CARRUSEL-->
+            <br>
+            <p class="fs-3">¿Cómo llegar?</p>
+            <p style="text-align: justify;">El municipio Nombre de Jesús está en las faldas del Eramón y se localiza a 103.6 kilómetros de San Salvador, en carro haces un recorrido de dos horas y media aproximadamente viajando por la carretera Troncal de Norte y carretera Longitudinal.
+            Diferentes tour operadores ofrecen este destino, también el Comité Municipal de Nombre de Jesús organiza caminatas los fines de semana.</p>
+            <p style="text-align: justify;">Para subir hasta el cerro e iniciar la caminata se debe usar un pick up de doble de doble tracción, de ser posible,  ya que el camino es bastante inclinado. En el pueblo también puedes contratar guías locales que te llevan por los senderos. Ellos son los que mejor conocen la zona y se encargan de guiar a los turistas con toda seguridad por el lugar.</p>
+
+          <p class="fs-3">Acerca del Cerro Eramón</p>
+          <p style="text-align: justify;">
+           El Cerro Eramón es uno de los destinos turísticos poco explorados en El Salvador, el destino ideal para los amantes de la aventura que siempre van en buscan superar sus propios límites.</p>
+           <p style="text-align: justify;">
+            En los últimos meses este sitio se ha vuelto más popular, muchas personas están llegando hasta acá atraídos por la magia y el encanto de estar “entre las nubes”. Y es que al llegar a la cima puedes disfrutar de impresionantes panorámicas que hacen de cada visita una experiencia única e inigualable en medio de la naturaleza.En los últimos meses este sitio se ha vuelto más popular, muchas personas están llegando hasta acá atraídos por la magia y el encanto de estar “entre las nubes”. Y es que al llegar a la cima puedes disfrutar de impresionantes panorámicas que hacen de cada visita una experiencia única e inigualable en medio de la naturaleza.
+          </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!------TERMINA MODAL----->
             </div>
             <div class="row">
                 <div class="col-12 text-center">
