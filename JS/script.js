@@ -10,11 +10,18 @@ var captionText = document.getElementById("caption");
 //Al cargar la pagina, verificar si es Index para cambiar las hojas de estilo (modo oscuro-claro)
 window.onload = function() {
     var viewMap = document.getElementById("hydroMap");
+    var volcMap = document.getElementById("volcMap");
 
     if (viewMap.addEventListener) {
         viewMap.addEventListener('click', DisplayMap);
     } else if (viewMap.attachEvent) {
         viewMap.attachEvent('onclick', DisplayMap);
+    }
+
+    if (volcMap.addEventListener) {
+        volcMap.addEventListener('click', volMap);
+    } else if (volcMap.attachEvent) {
+        volcMap.attachEvent('onclick', volMap);
     }
 
     var mode = localStorage.getItem('mode');
@@ -34,6 +41,12 @@ window.onload = function() {
         }
     }
 };
+
+function volMap() {
+    modal.style.display = "block";
+    modalImg.src = "img/volcanes-de-el-salvador.jpg";
+    captionText.innerHTML = "Mapa Volcanico de El Salvador";
+}
 
 function DisplayMap() {
     modal.style.display = "block";
